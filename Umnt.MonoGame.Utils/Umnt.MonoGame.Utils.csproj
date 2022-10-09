@@ -4,12 +4,24 @@
 	<TargetFramework>net6.0</TargetFramework>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
-	<VersionPrefix>0.0.1</VersionPrefix>
+	<VersionPrefix>0.0.1.1</VersionPrefix>
 	<VersionSuffix>alpha</VersionSuffix>
+	<Description>Utility classes for MonoGame Framework. Currently handles Input.</Description>
+	<RepositoryUrl>https://github.com/jakubpodgorniak/Umnt.MonoGame.Utils</RepositoryUrl>
+	<PackageTags>monogame; gamedev; indie; extras; extensions; input; advanced;</PackageTags>
+	<PackageReleaseNotes>Pacakge is not finished.</PackageReleaseNotes>
+	<Company></Company>
+	<Authors>Jakub "Undermountain" Podgórniak</Authors>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
+	</ItemGroup>
 
 </Project>

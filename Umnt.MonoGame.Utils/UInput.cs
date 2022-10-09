@@ -12,7 +12,7 @@ public enum MouseButton
     Extra2
 }
 
-public static class InputU
+public static class UInput
 {
     private readonly static List<Keys> downKeys = new();
     private readonly static List<Keys> upKeys = new();
